@@ -13,7 +13,7 @@ fi
 
 zmodload -i zsh/complist
 _comp_options+=(globdots) # With hidden files
-source $HOME/.config/completion.zsh
+source $HOME/.dotfiles/zsh/completion.zsh
 
 export PATH=$PATH:$HOME/bin
 
@@ -108,10 +108,6 @@ zstyle ':completion:::::' completer _expand _complete _ignored _approximate # en
 bindkey '^[[3~' delete-char
 bindkey '^[3;5~' delete-char
 
-# Enable auto-completions for Homeshick
-source "$HOME/.homesick/repos/homeshick/homeshick.sh"
-fpath=($HOME/.homesick/repos/homeshick/completions $fpath)
-
 # Add Visual Studio Code cli (code) to $PATH
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
@@ -132,13 +128,10 @@ if [ -f $HOME/.aliases ]; then
 	source $HOME/.aliases
 fi
 
-# Refresh dotfiles on shell startup
-homeshick --quiet refresh
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Syntax highlighting
-source $HOME/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Reliable Penguin stack map
 function pmap {

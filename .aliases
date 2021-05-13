@@ -1,0 +1,60 @@
+# Navigation
+alias ~='cd ~'
+alias ...='../..'
+alias ....='../../..'
+alias .....='../../../..'
+alias ......='../../../../..'
+alias 1='cd -'
+alias 2='cd -2'
+alias 3='cd -3'
+alias 4='cd -4'
+alias 5='cd -5'
+alias 6='cd -6'
+alias 7='cd -7'
+alias 8='cd -8'
+alias 9='cd -9'
+
+# Shell commands
+alias _='sudo '
+alias afind='ack -il'
+alias dc=docker-compose
+alias egrep='egrep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox}'
+alias fgrep='fgrep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox}'
+alias globurl='noglob urlglobber '
+alias grep='grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox}'
+
+# History
+alias history=omz_history
+
+# iTerm2 Aliases
+alias imgcat=/Users/sbucholz/.iterm2/imgcat
+alias imgls=/Users/sbucholz/.iterm2/imgls
+alias it2api=/Users/sbucholz/.iterm2/it2api
+alias it2attention=/Users/sbucholz/.iterm2/it2attention
+alias it2check=/Users/sbucholz/.iterm2/it2check
+alias it2copy=/Users/sbucholz/.iterm2/it2copy
+alias it2dl=/Users/sbucholz/.iterm2/it2dl
+alias it2getvar=/Users/sbucholz/.iterm2/it2getvar
+alias it2git=/Users/sbucholz/.iterm2/it2git
+alias it2setcolor=/Users/sbucholz/.iterm2/it2setcolor
+alias it2setkeylabel=/Users/sbucholz/.iterm2/it2setkeylabel
+alias it2ul=/Users/sbucholz/.iterm2/it2ul
+alias it2universion=/Users/sbucholz/.iterm2/it2universion
+
+# File/Directory commands
+alias l='ls -lAh'
+alias ll='ls -lh'
+alias ls='ls -G'
+alias md='mkdir -p'
+alias rd=rmdir
+alias run-help=man
+alias str='ssh -i ~/.ssh/aws/key-pairs/lightsail.pem bitnami@54.144.119.16 -t '\''cd apps/wordpress/htdocs ; bash'\'
+alias which-command=whence
+
+# Creature Comforts
+alias newchrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=/tmp/foo --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://localhost:1123'
+alias regit='rm -rf .git && git init'
+alias scratch='code ~/Sites/scratch/'
+alias z='_z 2>&1'
+alias zource='source ~/.zshrc'
+alias zshconf='sublime ~/.zshrc'

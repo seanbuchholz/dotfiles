@@ -1,0 +1,2 @@
+# Ignore JavaScript because we handle it through ESLint
+*.js
