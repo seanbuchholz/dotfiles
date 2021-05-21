@@ -61,3 +61,27 @@ cask "qlstephen"
 cask "quicklook-csv"
 cask "quicklook-json"
 cask "webpquicklook"
+
+
+brew "bash"
+brew "coreutils"
+brew "dnsmasq", restart_service: true
+brew "node"
+brew "heroku"
+brew "homeshick"
+brew "imagesnap"
+brew "libidn2"
+brew "neovim"
+brew "nginx", restart_service: true
+brew "openjdk"
+brew "php", restart_service: true
+brew "php-cs-fixer"
+brew "ruby-build"
+brew "rbenv"
+brew "rbenv-default-gems"
+brew "vivid"
+brew "wget"
+brew "z"
+brew "zsh"
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
