@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+typeset -U PATH path
+
 # ---- DIR CONFIG ----
 export XDG_CACHE_HOME="$HOME/.cache"
 export ZSH_CACHE_DIR="$XDG_CACHE_HOME/zsh"
@@ -11,7 +13,6 @@ export ZCONF=$XDG_CONFIG_HOME/zsh/configs # path to zsh config
 if [[ "$OSTYPE" == "darwin"* ]]; then # homebrew configs for macos
   export PATH="/usr/local/sbin:$PATH"
   export PATH="/usr/local/opt/sqlite/bin:$PATH"
-  #export M2_REPO="~/.m2"
 fi
 
 # ---- GENERAL ----

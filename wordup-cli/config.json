@@ -1,0 +1,31 @@
+{
+    "projects": {
+        "5744be9722b436cda0c761f47b47bd408b4e8786": {
+            "name": "libertythroughwealth",
+            "slugName": "soledad",
+            "path": "/Users/sbucholz/Wordup/libertythroughwealth.com/wp-content/themes/soledad",
+            "installedOnPort": 8010,
+            "listeningOnPort": 8010,
+            "scaffoldOnInstall": false,
+            "created": 1629390391
+        },
+        "5c95c84d08f1eb565a447bcff06906121021df22": {
+            "name": "investmentu",
+            "slugName": "InvestmentU-2019",
+            "path": "/Users/sbucholz/Wordup/investmentu.com/src/wp-content/themes/InvestmentU-2019",
+            "installedOnPort": 8010,
+            "listeningOnPort": false,
+            "scaffoldOnInstall": false,
+            "created": 1629480017
+        },
+        "bc73bc60ccaa281f6683b230218912bfc4152288": {
+            "name": "manwardfinancial",
+            "slugName": "manwardfinancial",
+            "path": "/Users/sbucholz/Wordup/manwardfinancial.com/src/wp-content/themes/manwardfinancial",
+            "installedOnPort": 8010,
+            "listeningOnPort": false,
+            "scaffoldOnInstall": false,
+            "created": 1629489718
+        }
+    }
+}

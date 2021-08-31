@@ -45,5 +45,6 @@ CVS
 Backup[ ]of[ ]*.pages/
 Backup[ ]of[ ]*.key/
 Backup[ ]of[ ]*.numbers/
-.dotfiles
+
+backups
 **/.zsh_history
