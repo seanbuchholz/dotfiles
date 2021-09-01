@@ -50,3 +50,4 @@ backups
 **/.zsh_history
 
 gh/**
+gh/hosts.yml
