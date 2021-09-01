@@ -44,9 +44,6 @@ zstyle ':completion:::::' completer _expand _complete _ignored _approximate # en
 bindkey '^[[3~' delete-char
 bindkey '^[3;5~' delete-char
 
-# Add Visual Studio Code cli (code) to $PATH
-pathadd $HOME/Applications/Visual Studio Code.app/Contents/Resources/app/bin
-
 # Add Python to $PATH
 pathadd $HOME/Library/Python/2.7/bin
 

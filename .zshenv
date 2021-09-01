@@ -1,1 +1,1 @@
-source /Users/sbucholz/.dotfiles/zsh/configs/environment.zsh
+source /Users/$USER/.dotfiles/zsh/configs/environment.zsh
